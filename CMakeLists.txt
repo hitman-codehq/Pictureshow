@@ -36,6 +36,7 @@ else()
 endif()
 
 set_property(TARGET Pictureshow PROPERTY CXX_STANDARD 14)
+set_property(TARGET Pictureshow PROPERTY CXX_STANDARD_REQUIRED ON)
 
 if(MSVC)
 	set(CMAKE_EXE_LINKER_FLAGS "/SUBSYSTEM:WINDOWS")
